@@ -157,8 +157,6 @@ function buildCategoriesViewHtml(categories,
   return finalHtml;
 }
 
-
-
 // Builds HTML for the single category page based on the data
 // from the server
 function buildAndShowMenuItemsHTML (categoryMenuItems) {
@@ -183,7 +181,6 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
     },
     false);
 }
-
 
 // Using category and menu items data and snippets html
 // build menu items view HTML to be inserted into page
@@ -268,7 +265,6 @@ function insertItemPrice(html,
   return html;
 }
 
-
 // Appends portion name in parens if it exists
 function insertItemPortionName(html,
                                portionPropName,
@@ -282,7 +278,6 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-
 
 global.$dc = dc;
 
